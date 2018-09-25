@@ -25,9 +25,10 @@ class ReactController {
 	@ResponseBody
 	List<A> getDummyData(){
 		List<A> result = new ArrayList<A>();
-		result.add(new A(0l,"Alex", "programmer"));
-		result.add(new A(2l,"Bohdan", "manipulator"));
-		result.add(new A(3l,"Hong", "programmer"));
+		result.add(new A(0l,"Alex", "new stuff hunter"));
+		result.add(new A(2l,"Bohdan", "legacy breaker"));
+		result.add(new A(3l,"Igor", "problem solver or maker"));
+		result.add(new A(3l,"Hong", "tractor"));
 		return result;
 	}
 }
