@@ -14,3 +14,8 @@
 
 ## v0.1.1 
 - point webpack output to ./target/scaffolding-mvc-version folder so js build result will not interfere with source control  
+
+## v0.1.2
+- Before port to Bootstrap 4.x
+- Minor data and html adjustments
+- Backgrount color adjustment 
