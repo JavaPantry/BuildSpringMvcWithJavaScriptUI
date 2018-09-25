@@ -28,7 +28,7 @@ class ReactController {
 		result.add(new A(0l,"Alex", "new stuff hunter"));
 		result.add(new A(2l,"Bohdan", "legacy breaker"));
 		result.add(new A(3l,"Igor", "problem solver or maker"));
-		result.add(new A(3l,"Hong", "tractor"));
+		result.add(new A(3l,"Hong", "CATERPILLAR"));
 		return result;
 	}
 }
