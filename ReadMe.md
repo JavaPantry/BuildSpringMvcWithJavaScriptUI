@@ -11,3 +11,6 @@
 
 ## v0.1 
 - This is hybrid Spring MVC app where only one page driven by javascript app built with webpack and all other content by Thymeleaf
+
+## v0.1.1 
+- point webpack output to ./target/scaffolding-mvc-version folder so js build result will not interfere with source control  
