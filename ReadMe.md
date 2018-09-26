@@ -24,3 +24,4 @@
 ## v0.2
 - switch to bs4 in WEB-INF/views/fragments/head-import.html
 - change navbar fragment in WEB-INF/views/fragments/layout.html 
+- switch to Bootstrap 4 complete
