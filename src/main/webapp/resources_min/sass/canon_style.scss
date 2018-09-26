@@ -1,0 +1,17 @@
+@import "canon_variables.scss";
+@import "fonts.scss";
+@import "headers.scss";
+@import "labels.scss";
+@import "buttons.scss";
+@import "backgraounds.scss";
+@import "canon.scss";
+@import "canon_typeahead.scss";
+@import "bootstrap-validator-v4patch.scss";
+@import "legal.scss";
+@import "listgroup.scss";
+
+body {
+  @extend .font_base;
+  background-color: $canon-white;
+}
+

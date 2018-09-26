@@ -1,0 +1,40 @@
+.InquireBg{
+  background-color: #D1d3d3;
+  padding-bottom: 10px;
+  border-top-width: 10px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  font-family: "Gotham Book";
+  font-size: 14px;
+  font-weight: bold;
+  color: #4b4f54;
+}
+
+.LegalBar {
+  display: inline;
+  font-size: .7rem;
+  line-height: 0.9rem;
+  color: #9fa3a8;
+  /*margin-bottom: 0px;*/
+}
+
+.LegalLinks{
+  display: inline;
+  margin: 0 0 0 20px;
+  padding-left: 0;
+}
+
+.LegalLink,
+.LegalLink a{
+  display: inline;
+  font-size: .9rem;
+  line-height: 1.1rem;
+
+  justify-content: center;
+  align-items: center;
+  /*padding: 0;*/
+  /*list-style-type: none;*/
+  font-family: Gotham-Light;
+  text-decoration: none;
+  color: #4b4f54;
+}

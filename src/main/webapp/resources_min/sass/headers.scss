@@ -1,0 +1,62 @@
+@import "canon_variables.scss";
+
+/*Remove .font_base;   from all*/
+
+h1,
+.h1{
+  font-family: "Gotham Light";
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+h2,
+.h2{
+  font-family: "Gotham Light";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 29px;
+}
+h3,
+.h3{
+  font-family: "Gotham Book";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+}
+h4,
+.h4{
+  font-family: "Gotham Medium";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+}
+
+h5,
+.h5{
+  font-family: "Gotham Bold";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+ul,
+li,
+p{
+  font-family: "Gotham Book";
+  font-size: 0.9rem;
+  line-height: 16px;
+}
+
+.card-header {
+  font-family: "Gotham Bold";
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.canon-title {
+  font-family: "Gotham Book";
+  font-size: 1rem;
+  font-weight: bold;
+  color: $canon-red;
+}

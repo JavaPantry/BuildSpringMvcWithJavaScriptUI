@@ -1,0 +1,43 @@
+.help-block {
+  color: red;
+}
+
+.form-group.has-error.has-danger{
+  .form-control-label {
+    color: red;
+  }
+  .form-control {
+    border: 1px solid red;
+    box-shadow: 0 0 0 0.2rem rgba(250, 16, 0, 0.18);
+  }
+}
+
+.form-row.has-error.has-danger{
+  .form-control-label {
+    color: red;
+  }
+  .form-control {
+    border: 1px solid red;
+    box-shadow: 0 0 0 0.2rem rgba(250, 16, 0, 0.18);
+  }
+}
+
+.form-group.has-success{
+  .form-control-label {
+    color: green;
+  }
+  .form-control {
+    border: 1px solid green;
+    box-shadow: 0 0 0 0.2rem rgba(16, 250, 65, 0.18);
+  }
+}
+
+.form-row.has-success{
+  .form-control-label {
+    color: green;
+  }
+  .form-control {
+    border: 1px solid green;
+    box-shadow: 0 0 0 0.2rem rgba(16, 250, 65, 0.18);
+  }
+}

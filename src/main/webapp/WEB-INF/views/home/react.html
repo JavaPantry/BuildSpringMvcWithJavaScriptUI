@@ -1,25 +1,16 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<!--<head th:replace="fragments/head-import :: head-shared('#{view.index.title}')"></head>-->
 <head th:replace="fragments/head-import :: head-shared('view.index.title')"></head>
+<nav th:replace="fragments/layout :: header"></nav>
 <body>
-<div th:replace="fragments/layout :: header"></div>
-<div class="container">
-    <p class="lead text-center">
-        React App placeholder
-    </p>
+    <div class="container">
+        <p class="lead text-center">
+            React App placeholder
+        </p>
 
-    <div id="app-root">
-
+        <div id="app-root"></div>
     </div>
-
-
-</div>
-<div th:replace="fragments/layout :: footer"></div>
-
-<!--<script src="../../../resources/js/bundle.js"></script>-->
-<!--<script src="../../../resources/bundle.js"></script>-->
-<script src="../../../bundle.js"></script>
-
+    <div th:replace="fragments/layout :: footer"></div>
+    <script src="../../../bundle.js"></script>
 </body>
 </html>

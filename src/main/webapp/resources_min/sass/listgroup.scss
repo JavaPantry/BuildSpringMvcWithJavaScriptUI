@@ -1,0 +1,14 @@
+  .list-group{
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+/* original bootstrap 4
+.list-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+}*/

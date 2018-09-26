@@ -1,0 +1,25 @@
+$canon-red: #db0812;
+$canon-dark-grey: #4b4f54;
+$canon-black: #000000;
+$canon-white: #FFFFFF;
+$canon-light-grey: #D1d3d3;
+$canon-titanium: #E8E9EA;
+// $canon-warning: $canon-dark-grey + #a40000;
+$canon-warning: adjust-color($canon-dark-grey,  $red:164);
+
+
+$font-family-base:"Gotham Light";
+$font_weight_default: 500;
+$font-size-base:      0.9rem;
+
+$line-height-base:    1.428571429; // 20/14
+
+/*use as `@extend .font_base;` */
+.font_base{
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  font-weight: $font_weight_default;
+  color: $canon-dark-grey;
+}
+

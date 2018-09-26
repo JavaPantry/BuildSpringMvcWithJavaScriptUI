@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head>
-    <title>Sign In</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link href="../../../resources/css/bootstrap.min.css" rel="stylesheet" media="screen" th:href="@{/resources/css/bootstrap.min.css}"/>
-    <link href="../../../resources/css/core.css" rel="stylesheet" media="screen" th:href="@{/resources/css/core.css}" />
-</head>
+<head th:replace="fragments/head-import :: head-shared('view.signin.title')"></head>
+<nav th:replace="fragments/layout :: header"></nav>
 <body>
-<div th:replace="fragments/layout :: header"></div>
+
 <form class="form-narrow form-horizontal" action="#" method="post" th:action="@{/authenticate}">
     <th:block th:if="${param.error != null}">
         <div th:replace="fragments/components :: alert (type='danger', message='Sign in error. Please try again.')">Alert</div>

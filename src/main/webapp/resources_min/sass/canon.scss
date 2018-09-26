@@ -1,0 +1,102 @@
+.panel-footer {
+  text-align: center;
+  position: fixed;/*absolute;*/
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.panel-footer ul li {
+  display: inline-block;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.line {
+  border-left: 1px solid #7fc0ff;
+  padding-left: 4px;
+}
+
+
+.panel-group.panel {
+  margin-top: 1em;
+  margin-bottom: 0;
+  border-radius: 20px;
+}
+
+.form-group{
+  margin-bottom:5px;
+}
+
+.form-group-last{
+  margin-top:5px;
+  margin-bottom:15px;
+}
+
+.form-row{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Center and vertical align title text in central part of navigaion header MPS login screen */
+.navchild {
+  padding: 1% 0;
+  vertical-align: bottom;
+}
+
+/* Center modal window https://codepen.io/dimbslmh/full/mKfCc */
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/*
+ * Vertical align two panels in row
+ * Vertical alignment of 'wells' - https://stackoverflow.com/questions/10771713/twitter-bootstrap-same-heights-on-fluid-columns
+ */
+
+@media (min-width: 768px) {
+  .col .panel {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+  }
+  /* bottom row */
+  .col-base{
+    margin-top: -15px; /* cut off top portion of bottom wells */
+  }
+}
+
+@media (max-width: 767px) {
+  .row.base{
+    display:none;
+  }
+}
+.col-wrap{
+  overflow: hidden;
+}
+
+/* underline label for line above Total */
+.underline{
+  border-bottom: 1px solid;
+}
+
+/*style="display:table-cell;vertical-align:middle;"style="word-wrap: break-word;"*/
+.wrapEl{
+  word-wrap: break-word;
+}

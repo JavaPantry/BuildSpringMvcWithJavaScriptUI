@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <link href="../../../resources/css/bootstrap.min.css" rel="stylesheet" media="screen" th:href="@{/resources/css/bootstrap.min.css}"/>
+    <!--<link href="../../../resources/css/bootstrap.min.css" rel="stylesheet" media="screen" th:href="@{/resources/css/bootstrap.min.css}"/>-->
+    <link href="../../../resources/unm_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
 </head>
 <body>
 
 <!-- Header -->
-<div class="navbar navbar-inverse navbar-fixed-top" th:fragment="header">
+
+<nav class="navbar navbar-expand-md bg-light navbar-light" th:fragment="header">
+    <a class="navbar-brand" href="http://www.canon.ca/inetCA/home?m=home"><img class="img-fluid" src="../../../resources_min/images/Canon Logo_265x49.png" alt="Canon Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item" th:classappend="${module == 'home' ? 'active' : ''}">
+                <a href="#" th:href="@{/}">Home</a>
+            </li>
+            <li class="nav-item" th:classappend="${module == 'about' ? 'active' : ''}">
+                &nbsp;<a href="#about" th:href="@{/about}">About</a>
+            </li>
+            <li class="nav-item" th:classappend="${module == 'about' ? 'active' : ''}">
+                &nbsp;<a href="#react" th:href="@{/react}">React App</a>
+            </li>
+            <!--<li class="nav-item"><a class="nav-link" href="#">Support & Drivers</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Supplies & Accessories</a></li>
+            <li class="nav-item">
+                <button class="button_language" onClick="window.location.href='#';return false;"> French &nbsp;&nbsp;<i class="icon-play-circled"></i></button>
+            </li>-->
+
+            <li class="nav-item" th:if="${#authorization.expression('!isAuthenticated()')}">
+                <a href="/signin" th:href="@{/signin}">
+                    <!--<span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>-->&nbsp;Sign in
+                </a>
+            </li>
+            <li class="nav-item" th:if="${#authorization.expression('isAuthenticated()')}">
+                <a href="/logout" th:href="@{#}" onclick="$('#form').submit();">
+                    <!--<span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>-->&nbsp;Logout
+                </a>
+                <form style="visibility: hidden" id="form" method="post" action="#" th:action="@{/logout}"></form>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<!--<div class="navbar navbar-inverse navbar-fixed-top" th:fragment="header">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
@@ -42,9 +83,9 @@
                 </li>
             </ul>
         </div>
-        <!--/.nav-collapse -->
+        &lt;!&ndash;/.nav-collapse &ndash;&gt;
     </div>
-</div>
+</div>-->
 
 <!-- Footer -->
 <div th:fragment="footer" th:align="center">

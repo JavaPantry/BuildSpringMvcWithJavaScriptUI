@@ -1,0 +1,563 @@
+/*use as `@extend .font_base;` */
+.font_base, body {
+  font-family: "Gotham Light";
+  font-size: 0.9rem;
+  line-height: 1.428571429;
+  font-weight: 500;
+  color: #4b4f54; }
+
+@font-face {
+  font-family: "Gotham Light";
+  src: url("../font/Gotham Light Regular.otf"); }
+@font-face {
+  font-family: "Gotham Book";
+  src: url("../font/Gotham Book Regular.otf"); }
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("../font/Gotham Medium.otf"); }
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("../font/Gotham Bold.otf"); }
+/*use as `@extend .font_base;` */
+.font_base, body {
+  font-family: "Gotham Light";
+  font-size: 0.9rem;
+  line-height: 1.428571429;
+  font-weight: 500;
+  color: #4b4f54; }
+
+/*Remove .font_base;   from all*/
+h1,
+.h1 {
+  font-family: "Gotham Light";
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px; }
+
+h2,
+.h2 {
+  font-family: "Gotham Light";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 29px; }
+
+h3,
+.h3 {
+  font-family: "Gotham Book";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px; }
+
+h4,
+.h4 {
+  font-family: "Gotham Medium";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px; }
+
+h5,
+.h5 {
+  font-family: "Gotham Bold";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px; }
+
+ul,
+li,
+p {
+  font-family: "Gotham Book";
+  font-size: 0.9rem;
+  line-height: 16px; }
+
+.card-header {
+  font-family: "Gotham Bold";
+  font-size: 1rem;
+  font-weight: bold; }
+
+.canon-title {
+  font-family: "Gotham Book";
+  font-size: 1rem;
+  font-weight: bold;
+  color: #db0812; }
+
+/*use as `@extend .font_base;` */
+.font_base, body {
+  font-family: "Gotham Light";
+  font-size: 0.9rem;
+  line-height: 1.428571429;
+  font-weight: 500;
+  color: #4b4f54; }
+
+/*Remove .font_base;   from all*/
+h1,
+.h1 {
+  font-family: "Gotham Light";
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px; }
+
+h2,
+.h2 {
+  font-family: "Gotham Light";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 29px; }
+
+h3,
+.h3 {
+  font-family: "Gotham Book";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px; }
+
+h4,
+.h4 {
+  font-family: "Gotham Medium";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px; }
+
+h5,
+.h5 {
+  font-family: "Gotham Bold";
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px; }
+
+ul,
+li,
+p {
+  font-family: "Gotham Book";
+  font-size: 0.9rem;
+  line-height: 16px; }
+
+.card-header {
+  font-family: "Gotham Bold";
+  font-size: 1rem;
+  font-weight: bold; }
+
+.canon-title {
+  font-family: "Gotham Book";
+  font-size: 1rem;
+  font-weight: bold;
+  color: #db0812; }
+
+.form-check-inline > .form-check-label,
+.form-control-label {
+  font-family: "Gotham Bold";
+  font-weight: bold;
+  font-size: 0.9rem;
+  /*this style is for Required field's fontello asterisk*/ }
+  .form-check-inline > .form-check-label i,
+  .form-control-label i {
+    color: #dc3545;
+    font-size: 0.5rem; }
+
+.note {
+  font-size: 0.8rem;
+  font-style: italic; }
+  .note.warn {
+    color: #dc3545; }
+  .note.info {
+    color: blue; }
+  .note.conf {
+    color: green; }
+
+/**/
+/*use as `@extend .font_base;` */
+.font_base, body {
+  font-family: "Gotham Light";
+  font-size: 0.9rem;
+  line-height: 1.428571429;
+  font-weight: 500;
+  color: #4b4f54; }
+
+/**/
+.btn {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.428571429;
+  border-radius: 0.25rem;
+  margin-left: 1px;
+  margin-top: 1px; }
+
+.capital {
+  text-transform: uppercase; }
+
+/*Language button style  without font-weight:bold;
+  bs4: changed from margin-top: 15px;
+*/
+.button_language {
+  margin-top: 7px;
+  border-top-color: #819BCB;
+  border-right-color: #819BCB;
+  border-bottom-color: #FF8585;
+  border-left-color: #819BCB;
+  border-width: 0px 0px 0px 0px;
+  border-style: solid;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  font-size: 10px;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  padding: 2px 5px 2px 5px;
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  color: #FFFFFF;
+  background-color: #7d7e7d;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7d7e7d), to(#0e0e0e));
+  background-image: -webkit-linear-gradient(top, #7d7e7d, #0e0e0e);
+  background-image: -moz-linear-gradient(top, #7d7e7d, #0e0e0e);
+  background-image: -ms-linear-gradient(top, #7d7e7d, #0e0e0e);
+  background-image: -o-linear-gradient(top, #7d7e7d, #0e0e0e);
+  background-image: linear-gradient(to bottom, #7d7e7d, #0e0e0e);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7d7e7d, endColorstr=#0e0e0e);
+  font-family: "fontello"; }
+
+.button_language:hover {
+  border-top-color: #819BCB;
+  border-right-color: #819BCB;
+  border-bottom-color: #F53D68;
+  border-left-color: #819BCB;
+  border-width: 0px 0px 0px 0px;
+  border-style: solid;
+  background-color: #646464;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#646464), to(#282828));
+  background-image: -webkit-linear-gradient(top, #646464, #282828);
+  background-image: -moz-linear-gradient(top, #646464, #282828);
+  background-image: -ms-linear-gradient(top, #646464, #282828);
+  background-image: -o-linear-gradient(top, #646464, #282828);
+  background-image: linear-gradient(to bottom, #646464, #282828);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#646464, endColorstr=#282828); }
+
+.smaller {
+  font-weight: 500;
+  font-size: .8em;
+  line-height: .8em; }
+
+.x-smaller {
+  font-weight: 500;
+  font-size: .6em;
+  line-height: .6em; }
+
+.btn-default {
+  color: #fff;
+  background-color: #db0812;
+  border-color: #b6070f;
+  border-radius: 0rem; }
+  .btn-default:hover {
+    color: #fff;
+    background-color: #b6070f;
+    border-color: #85050b; }
+  .btn-default:focus, .btn-default.focus {
+    box-shadow: 0 0 0 0.2rem rgba(182, 7, 15, 0.5); }
+  .btn-default.disabled, .btn-default:disabled {
+    color: #fff;
+    background-color: #db0812;
+    border-color: #b6070f; }
+  .btn-default:not(:disabled):not(.disabled):active, .btn-default:not(:disabled):not(.disabled).active, .show > .btn-default.dropdown-toggle {
+    color: #fff;
+    background-color: #aa060e;
+    border-color: #79040a; }
+    .btn-default:not(:disabled):not(.disabled):active:focus, .btn-default:not(:disabled):not(.disabled).active:focus, .show > .btn-default.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(182, 7, 15, 0.5); }
+
+.btn-slide:hover i {
+  color: white; }
+.btn-slide:hover i.right {
+  transform: translate(7px);
+  -webkit-transform: translate(7px);
+  -moz-transform: translate(7px);
+  -ms-transform: translate(7px); }
+.btn-slide:hover i.left {
+  transform: translate(-7px);
+  -webkit-transform: translate(-7px);
+  -moz-transform: translate(-7px);
+  -ms-transform: translate(-7px); }
+.btn-slide:hover i.up {
+  transform: translate(0, -5px);
+  -webkit-transform: translate(0, -5px);
+  -moz-transform: translate(0, -5px);
+  -ms-transform: translate(0, -5px); }
+.btn-slide:hover i.down {
+  transform: translate(0, 5px);
+  -webkit-transform: translate(0, 5px);
+  -moz-transform: translate(0, 5px);
+  -ms-transform: translate(0, 5px); }
+.btn-slide i {
+  margin-left: 2px;
+  margin-right: 2px; }
+  .btn-slide i.chevron {
+    transition: all .25s;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s; }
+
+.header_bkg {
+  display: block;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#FFFFFF), to(#CCCCCC));
+  background-image: -ms-linear-gradient(top, #FFFFFF, #CCCCCC); }
+
+.right_header_block {
+  float: left;
+  margin-right: 10px;
+  height: 2em;
+  width: 2em;
+  background-color: #DB0435;
+  background-image: -webkit-gradient(linear, left, right, from(#DB0435), to(#6D0019));
+  background-image: -webkit-linear-gradient(left, #DB0435, #6D0019);
+  background-image: -moz-linear-gradient(left, #DB0435, #6D0019);
+  background-image: -ms-linear-gradient(left, #DB0435, #6D0019);
+  background-image: -o-linear-gradient(left, #DB0435, #6D0019);
+  background-image: linear-gradient(to left, #DB0435, #6D0019);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#DB0435, endColorstr=#6D0019); }
+
+.left_header_block {
+  display: block;
+  overflow: auto;
+  float: left;
+  margin-right: 10px;
+  height: 4em;
+  /*height: 100%;*/
+  width: 2em;
+  background-color: #DB0435;
+  background-image: -webkit-gradient(linear, left, right, from(#DB0435), to(#6D0019));
+  background-image: -webkit-linear-gradient(left, #DB0435, #6D0019);
+  background-image: -moz-linear-gradient(left, #DB0435, #6D0019);
+  background-image: -ms-linear-gradient(left, #DB0435, #6D0019);
+  background-image: -o-linear-gradient(left, #DB0435, #6D0019);
+  background-image: linear-gradient(to left, #DB0435, #6D0019);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#DB0435, endColorstr=#6D0019); }
+
+.panelGroupHeadBkg {
+  /*border-top-color: #819BCB;border-right-color: #819BCB;border-bottom-color: #FF8585;border-left-color: #819BCB;border-width: 0px 0px 0px 0px;border-style: solid; -webkit-border-radius: 0px; -moz-border-radius: 0px;border-radius: 0px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+  background-color: #E8E8E8; background-image: -webkit-gradient(linear, left top, left bottom, from(#E8E8E8), to(#C4C4C4));*/
+  font-weight: bold;
+  color: #4d4d4d;
+  background-image: -webkit-linear-gradient(top, #E8E8E8, #C4C4C4);
+  background-image: -moz-linear-gradient(top, #E8E8E8, #C4C4C4);
+  background-image: -ms-linear-gradient(top, #E8E8E8, #C4C4C4);
+  /*background-image: -o-linear-gradient(top, #E8E8E8, #C4C4C4);
+  background-image: linear-gradient(to bottom, #E8E8E8, #C4C4C4);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#E8E8E8, endColorstr=#C4C4C4);*/ }
+
+.panel-footer {
+  text-align: center;
+  position: fixed;
+  /*absolute;*/
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.panel-footer ul li {
+  display: inline-block; }
+
+.footer ul li {
+  display: inline-block; }
+
+.line {
+  border-left: 1px solid #7fc0ff;
+  padding-left: 4px; }
+
+.panel-group.panel {
+  margin-top: 1em;
+  margin-bottom: 0;
+  border-radius: 20px; }
+
+.form-group {
+  margin-bottom: 5px; }
+
+.form-group-last {
+  margin-top: 5px;
+  margin-bottom: 15px; }
+
+.form-row {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/* Center and vertical align title text in central part of navigaion header MPS login screen */
+.navchild {
+  padding: 1% 0;
+  vertical-align: bottom; }
+
+/* Center modal window https://codepen.io/dimbslmh/full/mKfCc */
+.modal {
+  text-align: center;
+  padding: 0 !important; }
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px; }
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle; }
+
+/*
+ * Vertical align two panels in row
+ * Vertical alignment of 'wells' - https://stackoverflow.com/questions/10771713/twitter-bootstrap-same-heights-on-fluid-columns
+ */
+@media (min-width: 768px) {
+  .col .panel {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px; }
+
+  /* bottom row */
+  .col-base {
+    margin-top: -15px;
+    /* cut off top portion of bottom wells */ } }
+@media (max-width: 767px) {
+  .row.base {
+    display: none; } }
+.col-wrap {
+  overflow: hidden; }
+
+/* underline label for line above Total */
+.underline {
+  border-bottom: 1px solid; }
+
+/*style="display:table-cell;vertical-align:middle;"style="word-wrap: break-word;"*/
+.wrapEl {
+  word-wrap: break-word; }
+
+.twitter-typeahead {
+  width: 100%;
+  position: relative; }
+
+.typeahead, .tt-query, .tt-hint {
+  border: 2px solid #CCCCCC;
+  /* border-radius: 8px; */
+  font-size: 12px;
+  /* Set input font size */
+  height: 30px;
+  line-height: 30px;
+  outline: medium none;
+  padding: 8px 12px;
+  width: 100%; }
+
+.typeahead {
+  background-color: #FFFFFF;
+  /*  &:focus {
+      border: 2px solid magenta;
+    }*/ }
+
+.tt-query {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; }
+
+.tt-hint {
+  color: #999999; }
+
+.tt-menu {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 2px;
+  padding: 8px 0;
+  /*width: 422px;*/
+  width: auto; }
+
+.tt-suggestion {
+  font-size: 12px;
+  /* Set suggestion dropdown font size */
+  padding: 3px 20px; }
+
+.tt-suggestion:hover {
+  cursor: pointer;
+  background-color: #0097CF;
+  color: #FFFFFF; }
+
+.tt-suggestion p {
+  margin: 0; }
+
+#scrollable-dropdown-menu .tt-menu {
+  max-height: 150px;
+  overflow-y: auto; }
+
+.help-block {
+  color: red; }
+
+.form-group.has-error.has-danger .form-control-label {
+  color: red; }
+.form-group.has-error.has-danger .form-control {
+  border: 1px solid red;
+  box-shadow: 0 0 0 0.2rem rgba(250, 16, 0, 0.18); }
+
+.form-row.has-error.has-danger .form-control-label {
+  color: red; }
+.form-row.has-error.has-danger .form-control {
+  border: 1px solid red;
+  box-shadow: 0 0 0 0.2rem rgba(250, 16, 0, 0.18); }
+
+.form-group.has-success .form-control-label {
+  color: green; }
+.form-group.has-success .form-control {
+  border: 1px solid green;
+  box-shadow: 0 0 0 0.2rem rgba(16, 250, 65, 0.18); }
+
+.form-row.has-success .form-control-label {
+  color: green; }
+.form-row.has-success .form-control {
+  border: 1px solid green;
+  box-shadow: 0 0 0 0.2rem rgba(16, 250, 65, 0.18); }
+
+.InquireBg {
+  background-color: #D1d3d3;
+  padding-bottom: 10px;
+  border-top-width: 10px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  font-family: "Gotham Book";
+  font-size: 14px;
+  font-weight: bold;
+  color: #4b4f54; }
+
+.LegalBar {
+  display: inline;
+  font-size: .7rem;
+  line-height: 0.9rem;
+  color: #9fa3a8;
+  /*margin-bottom: 0px;*/ }
+
+.LegalLinks {
+  display: inline;
+  margin: 0 0 0 20px;
+  padding-left: 0; }
+
+.LegalLink,
+.LegalLink a {
+  display: inline;
+  font-size: .9rem;
+  line-height: 1.1rem;
+  justify-content: center;
+  align-items: center;
+  /*padding: 0;*/
+  /*list-style-type: none;*/
+  font-family: Gotham-Light;
+  text-decoration: none;
+  color: #4b4f54; }
+
+.list-group {
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+/* original bootstrap 4
+.list-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+}*/
+body {
+  background-color: #FFFFFF; }
+
+/*# sourceMappingURL=canon_style.css.map */

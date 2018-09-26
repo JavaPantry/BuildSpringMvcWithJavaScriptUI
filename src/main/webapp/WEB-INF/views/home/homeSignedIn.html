@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<!--<head th:replace="fragments/head-import :: head-shared('#{view.index.title}')"></head>-->
-<head th:replace="fragments/head-import :: head-shared('view.index.title')"></head>
+<head th:replace="fragments/head-import :: head-shared('view.welcome.title')"></head>
+<nav th:replace="fragments/layout :: header"></nav>
 <body>
-<div th:replace="fragments/layout :: header"></div>
 <div class="container">
     <!-- /* Handle the flash message */-->
     <th:block th:if="${message != null}">

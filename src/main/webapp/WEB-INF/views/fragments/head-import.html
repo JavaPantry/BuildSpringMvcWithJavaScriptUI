@@ -4,20 +4,35 @@
 <body>
 
 <head th:fragment="head-shared(titleText)">
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" pageEncoding="UTF-8"/>
+    <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <META HTTP-EQUIV="expires" CONTENT="-1">
+
+    <meta http-equiv="refresh" content="1800; url=#">
+
     <!-- also is working <title th:text="${#messages.msg(titleText)}">Default title text to be replaced</title>-->
     <title th:text="#{${titleText}}">Default title text to be replaced</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
-    <link href="../../../resources/css/bootstrap.min.css" rel="stylesheet" media="screen" th:href="@{/resources/css/bootstrap.min.css}"/>
-    <!--<link href="../../../resources/unm_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" media="screen" th:href="@{/resources/unm_modules/bootstrap/dist/css/bootstrap.css}"/>-->
+
+
+
+
+    <!--<link href="../../../resources/css/bootstrap.min.css" rel="stylesheet" media="screen" th:href="@{/resources/css/bootstrap.min.css}"/>-->
+    <!--<link href="../../../resources/unm_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" th:href="@{/resources/unm_modules/bootstrap/dist/css/bootstrap.css}"/>-->
+    <link href="../../../resources/unm_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
 
     <link href="../../../resources/css/core.css" rel="stylesheet" media="screen" th:href="@{/resources/css/core.css}" />
 
-    <script src="../../../resources/js/jquery.min.js" th:src="@{/resources/js/jquery.min.js}"></script>
+    <!--<script src="../../../resources/js/jquery.min.js" th:src="@{/resources/js/jquery.min.js}"></script>-->
     <!--<script src="../../../resources/unm_modules/jquery/dist/jquery.js" th:src="@{/resources/unm_modules/jquery/dist/jquery.js}"></script>-->
-    <script src="../../../resources/js/bootstrap.min.js" th:src="@{/resources/js/bootstrap.min.js}"></script>
-    <!--<script src="../../../resources/unm_modules/bootstrap/dist/js/bootstrap.bundle.js" th:src="@{/resources/unm_modules/bootstrap/dist/js/bootstrap.bundle.js}"></script>-->
+    <script src="../../../resources/unm_modules/jquery/dist/jquery.js"></script>
+
+    <!--<script src="../../../resources/js/bootstrap.min.js" th:src="@{/resources/js/bootstrap.min.js}"></script>-->
+    <!--<script src="../../../resources/unm_modules/bootstrap/dist/js/bootstrap.js" th:src="@{/resources/unm_modules/bootstrap/dist/js/bootstrap.js}"></script>-->
+    <script src="../../../resources/unm_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../../../resources_min/css/canon_style.css">
 
 </head>
 

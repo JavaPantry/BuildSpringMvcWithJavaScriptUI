@@ -5,6 +5,7 @@
 
 ## v0.0.1
 - add "react" page to main menu (copied from about)
+
 ## v0.0.2
 - copy javascript/build stuff from webpack-demo09212018_v4.zip
 - add front-end plugin to pom
@@ -19,3 +20,7 @@
 - Before port to Bootstrap 4.x
 - Minor data and html adjustments
 - Backgrount color adjustment 
+
+## v0.2
+- switch to bs4 in WEB-INF/views/fragments/head-import.html
+- change navbar fragment in WEB-INF/views/fragments/layout.html 
