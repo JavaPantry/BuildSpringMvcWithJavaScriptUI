@@ -29,3 +29,7 @@
 ## v0.2.1
 - Bootstrap 4 complete
 - Add fontawesome icons into nav links
+
+## v0.2.2
+- add prebuild script to package.json to build canon_style.css
+- still need to manually run `npm run build` to pickup prebuild script  

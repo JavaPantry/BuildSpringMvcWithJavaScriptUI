@@ -1,9 +1,9 @@
 @import "canon_variables.scss";
 
-@import "../../unm_modules/bootstrap/scss/functions";
-@import "../../unm_modules/bootstrap/scss/variables";
-@import "../../unm_modules/bootstrap/scss/mixins";
-@import "../../unm_modules/bootstrap/scss/mixins/_buttons.scss";
+@import "../../resources/unm_modules/bootstrap/scss/_functions.scss";
+@import "../../resources/unm_modules/bootstrap/scss/_variables.scss";
+@import "../../resources/unm_modules/bootstrap/scss/_mixins.scss";
+@import "../../resources/unm_modules/bootstrap/scss/mixins/_buttons.scss";
 
 $btn-border-radius-base:         1px;
 

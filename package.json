@@ -6,6 +6,11 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\"&& exit 1",
 		"develop": "webpack --mode development --watch",
+		"prebuild": "node-sass --include-path scss ./src/main/webapp/resources_min/sass/canon_style.scss   ./target/scaffolding-mvc-version/resources_min/css/canon_style.css",
+		"build": "webpack --mode production"
+	},
+	"backup-scripts": {
+		"prebuild": "node-sass --include-path scss ./src/main/webapp/resources_min/sass/canon_style.scss   ./target/scaffolding-mvc-version/resources_min/css/canon_style.css",
 		"build": "webpack --mode production"
 	},
 	"keywords": [],
